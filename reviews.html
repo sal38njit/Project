@@ -1,0 +1,55 @@
+<!-- DEVELOPER: Steven Lopez, IS117-001, Fall 2019 -->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reviews</title>
+	<link rel="stylesheet" href="style/main.css">
+	 <link rel="stylesheet" href="style/slicknav.css">
+	  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+	<!--<link rel="stylesheet" href="bootstrap.css">-->
+</head>
+
+<body>
+	<header>
+		<h2>Reviews</h2>
+	</header>
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="news.html">News</a></li>
+        	<li><a href="aboutme.html">About Me/Contact</a></li>	
+        	<li><a href="reviews.html">Reviews</a>
+			<ul>
+                	<li><a href="Review/review1.html">Review 1</a></li>
+                	<li><a href="Review/review1.html">Review 2</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav>
+	
+	<main>
+	<h3>Recent Reviews:</h3>
+	<section>
+		<ul>
+			<li><a href="Review/review1.html">Review 1</a></li>
+			<li><a href="Review/review2.html">Review 2</a></li>
+		</ul>
+	</section>
+	</main>
+</body>
+
+	<footer>
+		<p>&COPY 2019 Steven Lopez</p>
+	</footer>
+
+	
+</html>
