@@ -1,7 +1,4 @@
-/*
-    Mobile Menu Core Style
-*/
-
+/* DEVELOPER Steven Lopez, IS117-001, Fall 2019 */
 .slicknav_btn {
 	position: relative;
 	display: block;
@@ -68,10 +65,6 @@
 .slicknav_menu {
 *zoom: 1
 }
-/* 
-    User Default Style
-    Change the following styles to modify the appearance of the menu.
-*/
 
 .slicknav_menu {
 	font-size: 16px;
