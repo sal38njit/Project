@@ -5,22 +5,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About me</title>
+	<link rel="stylesheet" href="style/slicknav.css">
 	<link rel="stylesheet" href="style/main.css">
-	 <link rel="stylesheet" href="style/slicknav.css">
-	  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
 	<script type="text/javascript">
     	$(document).ready(function(){
 			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
     	});
     </script>
-	<!--<link rel="stylesheet" href="bootstrap.css">-->
+
 </head>
 
 <body>
 	<header>
+		<img src="images/pc.png" alt="PC Logo" height="80">
 		<h2>Steven's Tech Blog</h2>
 	</header>
+	
 	<nav id="mobile_menu"></nav>
 	<nav id="nav_menu">
     	<ul>
@@ -29,19 +31,25 @@
         	<li><a href="aboutme.html">About Me/Contact</a></li>	
         	<li><a href="reviews.html">Reviews</a>
 			<ul>
-                	<li><a href="Review/review1.html">Review 1</a></li>
-                	<li><a href="Review/review2.html">Review 2</a></li>
+                	<li><a href="Review/review1.html">iPad Review</a></li>
+                	<li><a href="Review/review2.html">Pixel 4 Review</a></li>
             	</ul>
         	</li>
     	</ul>
 	</nav>
 	
 	<main>
-		<p>I am a student at Rutgers University and I have always been interested in the latest technology.</p>
-		<br><br>
-		<p>If you wish to contact me, please fill the following form.</p>
+		<div class="card">
+			<img src="images/avatarimg.png" alt="Avatar" style="width:100%">
+			<div class="container">
+			<h4><b>Steven Lopez</b></h4> 
+			<p>I am a student at Rutgers University and I have always been interested in the latest technology.</p> 
+			</div>		
+		</div>
 		<br><br>
 		
+		<p>If you wish to contact me, please fill the following form.</p>
+		<br><br>
 		
 		<form>
 			<fieldset>
@@ -55,7 +63,7 @@
 			Subject:<br>
 			<input type="text" name="subject"><br>
 			Message:<br>
-			<textarea name="message" rows="30" col="300">
+			<textarea name="message" rows="20" cols="115">
 			</textarea>
 			<br><br>
 			<input type="submit" value="Submit">
